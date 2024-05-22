@@ -9,7 +9,7 @@ const mongoose = require("mongoose"),
 
 // 데이터베이스 연결 설정
 mongoose.connect(
-  "mongodb+srv://ut-node:1234@ut-node.gq7g93s.mongodb.net/?retryWrites=true&w=majority&appName=UT-Node", //Atlas 경로
+  "mongodb+srv://ut-node:ipo5XIzHIBQviwTS@ut-node.qkr65tx.mongodb.net/?retryWrites=true&w=majority&appName=ut-node", //Atlas 경로
 );
 
 const db = mongoose.connection;
